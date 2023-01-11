@@ -28,24 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnPulsar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnPulsar
             // 
-            this.button1.Location = new System.Drawing.Point(319, 198);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 58);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPulsar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnPulsar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnPulsar.Location = new System.Drawing.Point(356, 180);
+            this.btnPulsar.Name = "btnPulsar";
+            this.btnPulsar.Size = new System.Drawing.Size(165, 58);
+            this.btnPulsar.TabIndex = 0;
+            this.btnPulsar.Text = "Pulsar";
+            this.btnPulsar.UseVisualStyleBackColor = false;
+            this.btnPulsar.Click += new System.EventHandler(this.btnPulsar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPulsar);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -54,7 +57,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPulsar;
     }
 }
 

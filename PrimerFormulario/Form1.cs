@@ -16,5 +16,10 @@ namespace PrimerFormulario
         {
             InitializeComponent();
         }
+
+        private void btnPulsar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
